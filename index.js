@@ -5,11 +5,16 @@ let t = "Extravaganza";
  console.log(t[10]); 
  console.log(t[11]); 
 
-//QUESTION3
-const food = "The quick fox jumped over the dog";
+//QUESTION2 
+const food ="The quick fox jumped over the dog";
 let q = "eat";
 let r = `The q${q}uick fox jumped over the dog`
 console.log(r);
+
+//QUESTION3
+let txt = "the quick brown fox jump over the lazy dog";
+console.log((txt.match("brown")).length);
+console.log((txt.match("the")).length);
 
 //QUESTION4
 let w = "The pupils are reading in the library";
